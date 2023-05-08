@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Escape Room</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/logic.css" />
+  <body background="images/bg_login.webp">
+    <h1>Virtual Escape Room</h1>
+
+    <div class="btn-group">
+      <button id="qqq" onclick="location.href = 'admin.html';">
+        Admin Login
+      </button>
+      <button id="qqq" onclick="startAgain()">Start Again</button>
+    </div>
+
+    <div id="challenge-container"></div>
+
+    <div>
+      <div class="answer">
+        <a>Answer:</a>
+        <input
+          type="text"
+          id="answer"
+          placeholder="Type Your Answer here"
+          autocomplete="off"
+        />
+      </div>
+      <button id="qqq" onclick="myFunction()">Submit</button>
+    </div>
+   
+    <div class="prev-next-button">
+      <button id="prev-button">Previous Challenge</button>
+      <button id="next-button">Next Challenge</button>
+    </div>
+    <p>Score: <span id="score"> </span></p>
+
+    <script src="js/logic.js"></script>
+  </body>
+</html>
